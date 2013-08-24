@@ -99,9 +99,21 @@ background: #F5F0D8;
 }
 
 
+.body-container {
+box-shadow: 0 5px 4px 5px #999;
+width: 980px;
+position: relative;
+width: 1005px;
+margin-top: -20px;
+display: block;
+margin-left: 15%;
+background-color: white;
+}
 
-
-
+.header-wrapper {
+padding-top: 30px;
+padding-left: 10px
+}
 
 
 
