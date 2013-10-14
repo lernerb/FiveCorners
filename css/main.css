@@ -156,10 +156,35 @@ background: #F5F0D8 ;
 	color: #CC0000;
 }
 
+ /*
+ * Content
+ */
+
+
 .content-wrapper {
 	background-image:url('brickwall.png');
 }
 
+.left-content a {
+	padding-left : 30%;
+}
+
+.left-content p {
+	padding-left: 180px;
+	margin-right: -120px;
+}
+
+.page-title {
+		text-align:center;
+		font-weight:bold;
+		font-size: 150%;
+}
+
+.left-content {
+	width: 600px;
+	padding-left: 50px;
+	display:inline-block;
+}
 
 
 
@@ -169,7 +194,7 @@ background: #F5F0D8 ;
 
 .footer-wrapper {
 	margin-top: 50px;
-	background: #CC0000;
+	background: #000000;
 	padding-top: 100px;
 	color: white;
 }
