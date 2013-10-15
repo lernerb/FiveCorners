@@ -157,7 +157,7 @@ background: #F5F0D8 ;
 }
 
  /*
- * Content
+ * Content for all page classes
  */
 
 
@@ -180,12 +180,26 @@ background: #F5F0D8 ;
 		font-size: 150%;
 }
 
+.multiline-page-title {
+		text-align:center;
+		font-weight:bold;
+		font-size: 130%;
+}
+
+.content-important-message {
+		font-weight:bold;
+}
 .left-content {
 	width: 600px;
 	padding-left: 50px;
 	display:inline-block;
 }
 
+.content-with-list {
+    color:black;
+	padding-left: 225px;
+	margin-right: -140px;
+}
 
 
  /*
