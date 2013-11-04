@@ -78,7 +78,7 @@ if(isset($_POST['submit'])) {
                      <li class="notselected"><a  href="selling.html">Selling</a></li>
                      <li class="notselected"><a  href="community.html">Community Info</a></li>
                      <li class="notselected"><a  href="realtors.html">Realtors</a></li>
-                     <li class="notselected"><a  href="contact-us.html">Contact Us</a></li>
+                     <li class="notselected"><a  href="contact-us.php">Contact Us</a></li>
                      <li class="notselected-us"><a  href="join-us.html">Join Us</a></li>
                   </ul>
                </nav>
@@ -88,6 +88,8 @@ if(isset($_POST['submit'])) {
          </header>
          <div class ="content-wrapper">
             <div class ="left-content">
+			    <a href="contact-us.php" title="Contact us"><img src="img/book.png" width="526" height="267" alt="Five Corners Real Estate" style="border: 1px solid #c0c0c0; padding: 5px;" /></a>
+
                <p class="page-title">
                   Contact Five Corners Real Estate
                </p>
@@ -95,12 +97,11 @@ if(isset($_POST['submit'])) {
                   You'll have filled out dozens of documents and signed your name more than a hundred times by the time we're finished buying or selling your home.
 				  Unfortunately, we can't help that part -- real estate laws and such.
 				  What we can do is make choosing your real estate agent as simple as this short contact form.
-				  Better yet, just give us a call or drop by one of our conveniently located offices.
+				  Better yet, <a class="call" href="join-us.html">just give us a call</a> or drop by one of our conveniently located offices.
                <p/>
 			
 <div id="contact_form_wrap">
     <span class="message"><?php echo $message_text; ?></span>
-    <?php echo $errors; ?>
     <?php if(isset($_GET['sent'])): ?><h2>Your message has been sent</h2><?php endif; ?>
     <form id="contact_form" method="post" action="contact-us.php">
       <p><label>Name:<br />
@@ -126,7 +127,7 @@ if(isset($_POST['submit'])) {
         </select>      
       </label></p>      
         
-      <p><label>Message *: <br />
+      <p><label>Message: <br />
       <textarea name="message" class="textarea" cols="45" rows="5"><?php echo htmlentities($message); ?></textarea>
       </label><br /><span class="errors"><?php echo $messageErr ?></span></p>
        

@@ -169,6 +169,10 @@ background: #F5F0D8 ;
 	padding-left : 30%;
 }
 
+.call {
+	padding-left: 0% !important;
+}
+
 .left-content p {
 	padding-left: 180px;
 	margin-right: -120px;
@@ -201,6 +205,21 @@ background: #F5F0D8 ;
 	margin-right: -140px;
 }
 
+/*
+* Form Submission
+*/
+
+.message {
+	padding-left: 300px;
+	text-align: center;
+	margin: 0 auto;
+	display: table-cell;
+	color: red;
+}
+
+.errors {
+	color: red;
+}
 
  /*
  * Footer
