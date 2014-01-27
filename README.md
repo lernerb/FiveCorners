@@ -1,5 +1,3 @@
-Five Corners Real Estate
+#Five Corners Real Estate
 
----------------
-
-This is the repo for this website
+This is the repo for www.fivecornersrealestate.com 
